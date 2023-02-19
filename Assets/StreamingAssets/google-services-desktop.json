@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "106732682423-k1q92rve1l96f7o3d0je4bjqolonrbbk.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_sl0iqi2fm_lIoCdbGj8gOrQYC44FpV8"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:106732682423:ios:2e100597e61396c9e0e132", 
+        "android_client_info": {
+          "package_name": "com.FoxGames.SwordInDungeon"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "sword-in-dungeon-777c9.appspot.com", 
+    "project_id": "sword-in-dungeon-777c9", 
+    "firebase_url": "https://sword-in-dungeon-777c9.firebaseio.com", 
+    "project_number": "106732682423"
+  }
+}

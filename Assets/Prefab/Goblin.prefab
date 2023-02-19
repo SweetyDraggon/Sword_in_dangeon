@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790139976081973201
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 205.4388, y: 912, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1790139976081973245}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1790139976081973245
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1790139976081973201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790139976081973085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790139976081973201}
+  - component: {fileID: 1790139976081973441}
+  m_Layer: 0
+  m_Name: "Goblin"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1790139976081973129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790139976081973245}
+  - component: {fileID: 1790139976081973361}
+  - component: {fileID: 1790139976081973299}
+  - component: {fileID: 1790139976081973532}
+  - component: {fileID: 1790139976081973487}
+  m_Layer: 0
+  m_Name: "Sprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1790139976081973299
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973129}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 24b5287b63104f78bc4d9d3f531057bb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 4274724997
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1790139976081973361
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973129}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1790139976081973441
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6a18cf56a7b03a284445dd8bd7f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentAnimationName: "goblin"
+  currentAnimationClip:
+    name: "Default"
+    frames: []
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  currentAnimation: {fileID: 0}
+  currentSprite: {fileID: 0}
+  x: 0
+  y: 0
+  rotation: 0
+  alpha: 0
+  scaleX: 0
+  scaleY: 0
+  frame: 0
+  nextUpdate: 0
+  nextFixedUpdate: 0
+  initialized: 0
+  map: {fileID: 0}
+  isActive: 1
+  ignorePlatformCollisions: 0
+  tileX: 0
+  tileY: 0
+  upLeft: 0
+  upRight: 0
+  upCenter: 0
+  downLeft: 0
+  downRight: 0
+  downCenter: 0
+  downLow: 0
+  center: 0
+  farDownLeft: 0
+  farDownRight: 0
+  leftCenter: 0
+  rightCenter: 0
+  collisionRect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  knockBack: 0
+  knockBackTimer: 0
+  realW: 0
+  realH: 0
+  gravity: 0
+  xVel: 0
+  yVel: 0
+  xVelSrc: 0
+  yVelSrc: 0
+  maxVel: 0
+  acceleration: 0
+  jumpPower: 0
+  state: 0
+  airborne: 0
+  alive: 0
+  onSlope: 0
+  hit: 0
+  immune: 0
+  immuneTimer: 0
+  immuneTimerMax: 0
+  health: 0
+  maxHealth: 0
+  type: 0
+  hitTimer: 0
+  hitMax: 0
+  hitState: 0
+  soundOnHitPlayer: 
+  soundOnHitPlayerExtra: 
+  soundOnHurtPlayer: 
+  headNum: 0
+  headNumCreature: 0
+  questTrackingNum: 0
+  playerCollisionMultiplier: 0
+  enemyFlesh: 0
+  enemyWearsMetal: 0
+  enemyTurnsAtWalls: 1
+  enemyTurnsAtLedges: 1
+  weaponRect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  weaponW: 0
+  weaponH: 0
+  damageRect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  damageW: 0
+  damageH: 0
+  collisionRectUsesHitSize: 0
+  hitW: 0
+  hitH: 0
+  chargeVel: 0
+  maxCamRange: 0
+  damage: 0
+  moneyLow: 0
+  moneyHigh: 0
+  enemyType: 0
+  inRange: 0
+  idleTimer: 0
+  idleMax: 0
+  xp: 0
+  xpLevel: 0
+  disableLedgeTurn: 0
+  chargeTimer: 0
+  chargeTimerMax: 0
+--- !u!114 &1790139976081973487
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa64cf443edae13dc17a3c0358a79898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 1790139976081973405, guid: 797e138bb654449d395875d555c4ed2f, type: 2}
+  defaultClipId: 0
+  playAutomatically: 0
+--- !u!114 &1790139976081973532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1790139976081973408, guid: 65994be0ffc504c3e91ba468204f81e5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1, y: 1, z: 1}
+  _spriteId: 1
+  boxCollider2D: {fileID: 0}
+  polygonCollider2D: []
+  edgeCollider2D: []
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  renderLayer: 0

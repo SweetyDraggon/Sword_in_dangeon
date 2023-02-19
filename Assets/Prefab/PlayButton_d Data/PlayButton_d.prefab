@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &135004515063519697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8113813883314352937}
+  - component: {fileID: 5018619478368688259}
+  m_Layer: 0
+  m_Name: PlayButton_d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8113813883314352937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135004515063519697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5018619478368688259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135004515063519697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: play
+    boundsData:
+    - {x: 0.015625, y: 0, z: 0}
+    - {x: 4.59375, y: 4.375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.015625, y: 0, z: 0}
+    - {x: 4.59375, y: 4.375, z: 0}
+    texelSize: {x: 0.03125, y: 0.03125}
+    positions:
+    - {x: -2.28125, y: -2.1875, z: 0}
+    - {x: 2.3125, y: -2.1875, z: 0}
+    - {x: -2.28125, y: 2.1875, z: 0}
+    - {x: 2.3125, y: 2.1875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.007816406}
+    - {x: 0.5820273, y: 0.007816406}
+    - {x: 0.007816406, y: 0.55468357}
+    - {x: 0.5820273, y: 0.55468357}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: ff9b0ee01af140448bd200c5c30e5f4f, type: 2}
+    materialId: 0
+    sourceTextureGUID: bbbb617e0cf822d4f8f1c9004810b8db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: ff9b0ee01af140448bd200c5c30e5f4f, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d729b21e9df175b4f82737943f8af012, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 1c057e45464107d409b8756da891a83c
+  spriteCollectionName: PlayButton_d
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.1
+  halfTargetHeight: 320
+  buildKey: 1245754962
+  dataGuid: dc7a9c92f8a069547889af09026b24c0
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

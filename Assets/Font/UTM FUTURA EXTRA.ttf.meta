@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 491d54bb63d84e34b4e044355a23d491
+timeCreated: 1565082128
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "UTM FUTURA EXTRA"
+  fontNames:
+  - UTM Futura Extra
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+using System;
+
+public enum FXParticleTypes
+{
+	WOOD,
+	STONE,
+	ACID_SPARK,
+	SPARK,
+	MEAT,
+	BONE,
+	HEAD,
+	FLASH_SMALL,
+	FLASH_HIT,
+	FLASH_COIN_SPARK,
+	FLASH_LEVEL_UP,
+	EXPLOSION_SMALL
+}

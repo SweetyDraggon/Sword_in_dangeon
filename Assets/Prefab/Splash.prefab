@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1790139976081973386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790139976081973703}
+  - component: {fileID: 1790139976081974592}
+  m_Layer: 0
+  m_Name: Splash
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790139976081973703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790139976081974592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790139976081973386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: ravenous
+    boundsData:
+    - {x: -17.99998, y: -0.5, z: 0}
+    - {x: 714, y: 215, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.5, z: 0}
+    - {x: 750, y: 215, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -375, y: -108, z: 0}
+    - {x: 339, y: -108, z: 0}
+    - {x: -375, y: 107, z: 0}
+    - {x: 339, y: 107, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.001954101}
+    - {x: 0.003908203, y: 0.6992178}
+    - {x: 0.4238262, y: 0.001954101}
+    - {x: 0.4238262, y: 0.6992178}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d5f8575b7720489081a8e32f6d982f87, type: 2}
+    materialId: 0
+    sourceTextureGUID: ada3f039b04114aeebc693e973a89b5e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: woblyware
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 706, y: 104, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 706, y: 104, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -353, y: -52, z: 0}
+    - {x: 353, y: -52, z: 0}
+    - {x: -353, y: 52, z: 0}
+    - {x: 353, y: 52, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4316426, y: 0.001954101}
+    - {x: 0.4316426, y: 0.6914053}
+    - {x: 0.6347637, y: 0.001954101}
+    - {x: 0.6347637, y: 0.6914053}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d5f8575b7720489081a8e32f6d982f87, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a060b53a1f7e400c81eb3b952c71a47
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: splash
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 706, y: 104, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 706, y: 104, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -353, y: -52, z: 0}
+    - {x: 353, y: -52, z: 0}
+    - {x: -353, y: 52, z: 0}
+    - {x: 353, y: 52, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4316426, y: 0.001954101}
+    - {x: 0.4316426, y: 0.6914053}
+    - {x: 0.6347637, y: 0.001954101}
+    - {x: 0.6347637, y: 0.6914053}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d5f8575b7720489081a8e32f6d982f87, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a060b53a1f7e400c81eb3b952c71a47
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: d5f8575b7720489081a8e32f6d982f87, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b17bf5a11bdf3f747823f5bb2053a8f3, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 10a8e1a19ec9a4a21a5029e0de8fb8c5
+  spriteCollectionName: Splash
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 1608570188
+  dataGuid: d3a724b2c84d1470fb6a27a50afc59a9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

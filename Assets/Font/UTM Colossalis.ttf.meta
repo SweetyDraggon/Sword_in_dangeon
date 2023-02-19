@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 34b2b5ebfbc245d183b72cde1b14e57a
+timeCreated: 1565082128
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "UTM Colossalis"
+  fontNames:
+  - UTM Colossalis
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

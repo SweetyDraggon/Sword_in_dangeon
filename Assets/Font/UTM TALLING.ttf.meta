@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 55860f0102b84df3b879453bc48898f6
+timeCreated: 1565082128
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "UTM TALLING"
+  fontNames:
+  - UTM Talling
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
